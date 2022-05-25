@@ -54,7 +54,8 @@ def model_fn(model_dir):
     print("model_dir is", model_dir)
     print("inside model_dir is", os.listdir(model_dir))
     with open(os.path.join(model_dir, 'model.pth'), 'rb') as f:
-        model.load_state_dict(torch.load(f))
+        #model.load_state_dict(torch.load(f)) choose the right way to load your model
+        model = torch.load(f,map_location=torch.device('cpu') )
     return model.to(device)   
 
 
