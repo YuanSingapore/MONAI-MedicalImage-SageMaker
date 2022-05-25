@@ -5,4 +5,4 @@ Demo the capability of using MONAI in Amazon SageMaker to processing, predicting
   Classification of 2D CT images in DICOM format into  COVID-19 infection, Community Acquired Pneumonia and  normal conditions. 
   
 + Segementation 
-  Segmentation of spleen from 3D CT images, captured in NIFTI format.   
+  Segmentation of spleen from 3D CT images, which are captured in NIFTI format.   
