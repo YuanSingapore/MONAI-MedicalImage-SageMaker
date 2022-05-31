@@ -1,6 +1,6 @@
 # MONAI-MedicalImage-SageMaker
 
-This repository contains examples and related resources showing you how to you can use deep learning algorithms from MONAI libries to train models and conduct inference using Amazon SageMaker with Nring Your Own Script (BROS) model. 
+This repository contains examples and related resources showing you how to you can use deep learning algorithms from MONAI libries to train models and conduct inference using Amazon SageMaker with Bring Your Own Script (BROS) model. 
 
 
  
