@@ -273,7 +273,7 @@ def train(args):
             metric_values.append(acc_metric)
        
             if((acc_metric >= best_metric) ):#|((result > best_metric-0.02) & (epoch>(10+best_metric_epoch)))):
-                print("new best metric model at epoch:", epoch + 1)
+                print("saved new best metric model at epoch:", epoch + 1)
                 best_metric = acc_metric
                 best_metric_epoch = epoch + 1
                 #save_model(model, args.model_dir)
